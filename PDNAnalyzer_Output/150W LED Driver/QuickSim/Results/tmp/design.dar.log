@@ -1,0 +1,74 @@
+
+Importing Y:\Altium Projects\150WLEDDriver_LT3756-2\PDNAnalyzer_Output\150W LED Driver\QuickSim\odb.tgz... [Thu Jan 16 04:31:53 2020]
+============================================================
+Reading ODB++ database ...
+
+file not found: odb/misc/info.Z
+Reading file odb/matrix/matrix...
+Reading file odb/steps/pcb/profile...
+Reading file odb/steps/pcb/eda/data...
+Origin of ODB++ database:  Altium Designer file - Version 1.0.0.30000
+eda data: 12 packages, 23 nets.
+Reading file odb/steps/pcb/layers/top_solder/features...
+123 SWHs on layer TOP_SOLDER
+
+Reading file odb/steps/pcb/layers/top_layer/features...
+476 SWHs on layer TOP_LAYER
+
+Reading file odb/steps/pcb/layers/layer_1/features...
+137 SWHs on layer LAYER_1
+
+Reading file odb/steps/pcb/layers/layer_2/features...
+78 SWHs on layer LAYER_2
+
+Reading file odb/steps/pcb/layers/bottom_layer/features...
+197 SWHs on layer BOTTOM_LAYER
+
+Reading file odb/steps/pcb/layers/bottom_solder/features...
+0 SWHs on layer BOTTOM_SOLDER
+
+Added substrate layer SUBSTRATE-1 below etch layer TOP_LAYER
+Added substrate layer SUBSTRATE-2 below etch layer LAYER_1
+Added substrate layer SUBSTRATE-3 below etch layer LAYER_2
+Reading file odb/steps/pcb/layers/top_solder/attrlist...
+Reading file odb/steps/pcb/layers/top_layer/attrlist...
+Reading file odb/steps/pcb/layers/layer_1/attrlist...
+Reading file odb/steps/pcb/layers/layer_2/attrlist...
+Reading file odb/steps/pcb/layers/bottom_layer/attrlist...
+Reading file odb/steps/pcb/layers/bottom_solder/attrlist...
+WARNING: material values were set to default due to missing information for the following layers:  'TOP_SOLDER', 'TOP_LAYER', 'LAYER_1', 'LAYER_2', 'BOTTOM_LAYER', 'BOTTOM_SOLDER'
+parsing drills TOP_LAYER-BOTTOM_LAYER
+Reading file odb/steps/pcb/layers/drill/features...
+Reading file odb/steps/pcb/layers/comp_+_top/components...
+INFO: 52 duplicate vertices ignored
+========================================
+INFO: Created CSV file (Y:\Altium Projects\150WLEDDriver_LT3756-2\PDNAnalyzer_Output\150W LED Driver\QuickSim\Results\tmp\design.csv) with component properties extracted from ODB++ file.
+========================================
+========================================
+Lumped-element import (Y:\Altium Projects\150WLEDDriver_LT3756-2\PDNAnalyzer_Output\150W LED Driver\QuickSim\Results\tmp\design.csv)...
+Detected ' ; ' as separator.
+
+Value-string translations:
+	0.1_F ->  100.0 fF (C)
+	0_Ohms ->  0.0 Ohms (R)
+	100_kOhms ->  100.0 Ohms (R)
+	10_F ->  10.0 pF (C)
+	10_kOhms ->  10.0 Ohms (R)
+	17.4_kOhms ->  17.4 Ohms (R)
+	20_mOhms ->  20.0 Ohms (R)
+	2200pF ->  2.1999999999999997 nF (C)
+	23.2_kOhms ->  23.2 Ohms (R)
+	4.7_F ->  4.7 pF (C)
+	42.2_kOhms ->  42.2 Ohms (R)
+	47_F ->  47.0 pF (C)
+	47_H ->  47.0 nH (L)
+	499_kOhms ->  499.0 Ohms (R)
+	56_mOhms ->  56.0 Ohms (R)
+	787_kOhms ->  787.0 Ohms (R)
+WARNING: unphysical value: 0.0 Ohms
+========================================
+WARNING: There were some warnings while importing the auto-generated CSV-file 'Y:\Altium Projects\150WLEDDriver_LT3756-2\PDNAnalyzer_Output\150W LED Driver\QuickSim\Results\tmp\design.csv'. Please review the auto-generated file under Parts Editor->Load (csv).
+========================================
+Unifying library padstacks...
+Finished reading database.
+============================================================
